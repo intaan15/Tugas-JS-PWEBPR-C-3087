@@ -1,6 +1,8 @@
 *{
     font-family: "Poppins";
     font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 .container{
     background-color: #DBDBDB;
@@ -28,7 +30,7 @@ body{
     align-items: center;
     font-weight: 700;
     font-size: 32px;
-    padding-bottom: 28px;
+    padding-bottom: 58px;
 }
 .detective{
     width: 219px;
