@@ -1,0 +1,103 @@
+*{
+    font-family: "Poppins";
+    font-size: 16px;
+}
+.container{
+    background-color: #DBDBDB;
+    width: 610px;
+    height: 329px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    width: 438px;
+    height: 47px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 28px;
+}
+.detective{
+    width: 219px;
+    height: 219px;
+    margin-top: -60px;
+    cursor: not-allowed;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;    
+    width: 100%;
+    height: 100%;
+}
+.teks{
+    display: flex;
+    background-color: #FEEEE2;
+    border-radius: 20px;
+    width: 475px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin: 0;
+    padding: 17px 0px 17px 0px ;
+}
+.jawaban{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    height: 100%;
+}
+.iya{
+    display: flex;
+    background-color: #6FD240;
+    border-radius: 12px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    width: 157px;
+    height: 41px;
+    cursor: wait;
+}
+.tidak{
+    display: flex;
+    background-color: #E12E2E;
+    border-radius: 12px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    width: 157px;
+    height: 41px;
+    color: #FFFF;
+    cursor: grab;
+}
+
+.iya:hover{
+    transform: translate(-10px, 0px);
+    opacity: 0.1;
+    transition: 3s ease-in-out;
+}
+
+.tidak:hover{
+    transform: translate(10px, 0px);
+    opacity: 0.1;
+    transition: 3s ease-in-out;
+}
